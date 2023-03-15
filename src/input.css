@@ -7,20 +7,34 @@
 :root {
   /* ### Primary */
 
-  --Dark-Blue: hsl(233, 26%, 24%);
-  --Lime-Green: hsl(136, 65%, 51%);
-  --Bright-Cyan: hsl(192, 70%, 51%);
+  --Dark-Blue: #2d314d;
+  --Lime-Green: #31d35c;
+  --Bright-Cyan: #2bb7da;
 
   /* ### Neutral */
 
-  --Grayish-Blue: hsl(233, 8%, 62%);
-  --Light-Grayish-Blue: hsl(220, 16%, 96%);
-  --Very-Light-Gray: hsl(0, 0%, 98%);
+  --Grayish-Blue: #9698a6;
+  --Light-Grayish-Blue: #f3f4f6;
+  --Very-Light-Gray: #fafafa;
   --White: hsl(0, 0%, 100%);
 }
 
 body {
   font-family: "Public Sans", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  color: #2d314d;
+}
+
+p {
+    color: #9698a6;
+}
+
+button {
+    background-image: linear-gradient(to right, #31d35c, #2bb7da);
 }
 
 .attribution {
