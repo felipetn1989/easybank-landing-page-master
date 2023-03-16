@@ -577,6 +577,22 @@ video {
   margin-bottom: 2rem;
 }
 
+.mt-\[-0\.25rem\] {
+  margin-top: -0.25rem;
+}
+
+.mt-\[-0\.1875rem\] {
+  margin-top: -0.1875rem;
+}
+
+.mt-\[-0\.3125rem\] {
+  margin-top: -0.3125rem;
+}
+
+.mt-\[-0\.375rem\] {
+  margin-top: -0.375rem;
+}
+
 .flex {
   display: flex;
 }
@@ -717,6 +733,14 @@ video {
   width: 18rem;
 }
 
+.w-5 {
+  width: 1.25rem;
+}
+
+.w-6 {
+  width: 1.5rem;
+}
+
 .place-items-center {
   place-items: center;
 }
@@ -777,6 +801,10 @@ video {
   gap: 2.5rem;
 }
 
+.gap-1 {
+  gap: 0.25rem;
+}
+
 .rounded-3xl {
   border-radius: 1.5rem;
 }
@@ -808,6 +836,11 @@ video {
 
 .bg-\[\] {
   background-color: ;
+}
+
+.bg-\[\#2d314d\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(45 49 77 / var(--tw-bg-opacity));
 }
 
 .px-4 {
@@ -888,6 +921,51 @@ video {
 .py-7 {
   padding-top: 1.75rem;
   padding-bottom: 1.75rem;
+}
+
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.py-9 {
+  padding-top: 2.25rem;
+  padding-bottom: 2.25rem;
+}
+
+.py-\[2\.3125rem\] {
+  padding-top: 2.3125rem;
+  padding-bottom: 2.3125rem;
+}
+
+.py-\[2\.375rem\] {
+  padding-top: 2.375rem;
+  padding-bottom: 2.375rem;
+}
+
+.py-\[2\.4375rem\] {
+  padding-top: 2.4375rem;
+  padding-bottom: 2.4375rem;
+}
+
+.py-\[1\.25rem\] {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.py-\[1\.375rem\] {
+  padding-top: 1.375rem;
+  padding-bottom: 1.375rem;
 }
 
 .pb-\[3\.75rem\] {
@@ -1007,6 +1085,11 @@ video {
   font-size: 0.9375rem;
 }
 
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -1017,6 +1100,34 @@ video {
 
 .leading-\[3rem\] {
   line-height: 3rem;
+}
+
+.leading-4 {
+  line-height: 1rem;
+}
+
+.leading-5 {
+  line-height: 1.25rem;
+}
+
+.leading-7 {
+  line-height: 1.75rem;
+}
+
+.leading-8 {
+  line-height: 2rem;
+}
+
+.leading-9 {
+  line-height: 2.25rem;
+}
+
+.leading-\[2\.0625rem\] {
+  line-height: 2.0625rem;
+}
+
+.leading-\[2\.125rem\] {
+  line-height: 2.125rem;
 }
 
 .tracking-tight {
