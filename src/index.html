@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="../dist/output.css" />
   </head>
   <body>
-    <header class="fixed w-full flex justify-between items-center bg-white px-6 py-[1.375rem]">
+    <header class="fixed w-full flex justify-between items-center bg-white px-6 py-[1.375rem] z-20">
       <img src="../images/logo.svg" alt="Easybank logo" />
       <img class="hover:cursor-pointer" src="../images/icon-hamburger.svg" alt="Menu icon" />
       <nav class="hidden">
@@ -35,7 +35,7 @@
     <main class="text-center text-sm tracking-tight">
       <div>
         <img
-          class="absolute top-[-3.5rem] -z-10 px-4"
+          class="absolute top-[-3.5rem] z-10 px-4"
           src="../images/image-mockups.png"
           alt="Images showing four cellphones using the bank app"
         />
@@ -46,7 +46,7 @@
             one-stop-shop for spending, saving, budgeting, investing, and much
             more.
           </p>
-          <button class="text-white font-bold text-xs w-40 mt-5 py-3.5 rounded-3xl">Request Invite</button>
+          <button class="text-white font-bold text-xs w-40 mt-5 py-3.5 rounded-3xl hover:opacity-50">Request Invite</button>
         </div>
       </div>
       <div class="grid gap-14 bg-[#f3f4f6] px-6 pt-[4.5rem] pb-[3.75rem]">
@@ -101,7 +101,7 @@
           <img class="h-[12.5rem] w-full" src="../images/image-currency.jpg" alt="Picture showing british pound bills">
           <div class="grid gap-2 px-[1.9375rem] py-7">
             <span class="text-[0.5625rem]">By Claire Robinson</span>
-            <h3 class="text-[0.9375rem] tracking-tighter">Receive money in any currency with no fees</h3>
+            <h3 class="text-[0.9375rem] tracking-tighter hover:text-[#31d35ca2] hover:cursor-pointer">Receive money in any currency with no fees</h3>
             <p class="text-xs tracking-tighter">
               The world is getting smaller and we’re becoming more mobile. So why
               should you be forced to only receive money in a single …
@@ -112,7 +112,7 @@
           <img class="h-[12.5rem] w-full" src="../images/image-restaurant.jpg" alt="Picture showing a restaurant table full of food">
           <div class="grid gap-2 px-[1.9375rem] py-7">
             <span class="text-[0.5625rem]">By Wilson Hutton</span>
-            <h3 class="text-[0.9375rem] tracking-tighter">Treat yourself without worrying about money</h3>
+            <h3 class="text-[0.9375rem] tracking-tighter hover:text-[#31d35ca2] hover:cursor-pointer">Treat yourself without worrying about money</h3>
             <p class="text-xs tracking-tighter">
               Our simple budgeting feature allows you to separate out your spending
               and set realistic limits each month. That means you …
@@ -123,7 +123,7 @@
           <img class="h-[12.5rem] w-full" src="../images/image-plane.jpg" alt="Picture showing an airplane wing viewed for the window during flight">
           <div class="grid gap-2 px-[1.9375rem] py-7">
             <span class="text-[0.5625rem]">By Wilson Hutton</span>
-            <h3 class="text-[0.9375rem] tracking-tighter">Take your Easybank card wherever you go</h3>
+            <h3 class="text-[0.9375rem] tracking-tighter hover:text-[#31d35ca2] hover:cursor-pointer">Take your Easybank card wherever you go</h3>
             <p class="text-xs tracking-tighter">
               We want you to enjoy your travels. This is why we don’t charge any
               fees on purchases while you’re abroad. We’ll even show you …
@@ -134,7 +134,7 @@
           <img class="h-[12.5rem] w-full" src="../images/image-confetti.jpg" alt="Picture showing confetting flying in a blue background">
           <div class="grid gap-2 px-[1.9375rem] py-7">
             <span class="text-[0.5625rem]">By Claire Robinson</span>
-            <h3 class="text-[0.9375rem] tracking-tighter">Our invite-only Beta accounts are now live!</h3>
+            <h3 class="text-[0.9375rem] tracking-tighter hover:text-[#31d35ca2] hover:cursor-pointer">Our invite-only Beta accounts are now live!</h3>
             <p class="text-xs tracking-tighter">
               After a lot of hard work by the whole team, we’re excited to launch
               our closed beta. It’s easy to request an invite through the site ...
@@ -147,21 +147,21 @@
     <footer class="grid gap-8 place-items-center bg-[#2d314d] py-[2.4375rem] text-white">
       <img src="../images/logo-white.svg" alt="Easybank logo" />
       <div class="flex gap-4">
-        <img class="w-6" src="../images/icon-facebook.svg" alt="Facebook icon" />
-        <img class="w-6" src="../images/icon-youtube.svg" alt="Youtube icon" />
-        <img class="w-6" src="../images/icon-twitter.svg" alt="Twitter icon" />
-        <img class="w-6" src="../images/icon-pinterest.svg" alt="Pinterest icon" />
-        <img class="w-6" src="../images/icon-instagram.svg" alt="Instagram icon" />
+        <img class="social_icon w-6 hover:cursor-pointer" src="../images/icon-facebook.svg" alt="Facebook icon" />
+        <img class="social_icon w-6 hover:cursor-pointer" src="../images/icon-youtube.svg" alt="Youtube icon" />
+        <img class="social_icon w-6 hover:cursor-pointer" src="../images/icon-twitter.svg" alt="Twitter icon" />
+        <img class="social_icon w-6 hover:cursor-pointer" src="../images/icon-pinterest.svg" alt="Pinterest icon" />
+        <img class="social_icon w-6 hover:cursor-pointer" src="../images/icon-instagram.svg" alt="Instagram icon" />
       </div>
       <ul class="text-sm text-center leading-[2.0625rem]">
-        <li>About Us</li>
-        <li>Contact</li>
-        <li>Blog</li>
-        <li>Careers</li>
-        <li>Support</li>
-        <li>Privacy Policy</li>
+        <li class="hover:text-[#31d35ca2] hover:cursor-pointer">About Us</li>
+        <li class="hover:text-[#31d35ca2] hover:cursor-pointer">Contact</li>
+        <li class="hover:text-[#31d35ca2] hover:cursor-pointer">Blog</li>
+        <li class="hover:text-[#31d35ca2] hover:cursor-pointer">Careers</li>
+        <li class="hover:text-[#31d35ca2] hover:cursor-pointer">Support</li>
+        <li class="hover:text-[#31d35ca2] hover:cursor-pointer">Privacy Policy</li>
       </ul>
-      <button class="text-white font-bold text-xs w-40 py-3.5 rounded-3xl">Request Invite</button>
+      <button class="text-white font-bold text-xs w-40 py-3.5 rounded-3xl hover:opacity-50">Request Invite</button>
       <span class="text-sm tracking-tight mt-[-0.375rem]">© Easybank. All Rights Reserved</span>
 
       <div class="attribution">
@@ -174,4 +174,5 @@
       </div>
     </footer>
   </body>
+  <script src="script.js"></script>
 </html>

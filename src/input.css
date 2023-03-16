@@ -33,6 +33,10 @@ p {
     color: #9698a6;
 }
 
+main {
+  background: url('../images/bg-intro-mobile.svg') no-repeat;
+}
+
 button {
     background-image: linear-gradient(to right, #31d35c, #2bb7da);
 }
