@@ -19,23 +19,24 @@
   <body>
     <header class="fixed w-full flex justify-between items-center bg-white px-6 py-[1.375rem] z-20">
       <img src="../images/logo.svg" alt="Easybank logo" />
-      <img class="hover:cursor-pointer" src="../images/icon-hamburger.svg" alt="Menu icon" />
-      <nav class="hidden">
-        <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Contact</li>
-          <li>Blog</li>
-          <li>Careers</li>
+      <img id="menuIcon" class="hover:cursor-pointer lg:hidden" src="../images/icon-hamburger.svg" alt="Menu icon" />
+      <nav id="topMenu" class="hidden absolute top-[5.5rem] pt-8 pb-[1.8125rem] text-[1.0625rem] bg-white w-[20.5rem] left-1/2 translate-x-[-50%] rounded-md text-center">
+        <ul class="grid gap-[1.1875rem]">
+          <li class="hover:cursor-pointer">Home</li>
+          <li class="hover:cursor-pointer">About</li>
+          <li class="hover:cursor-pointer">Contact</li>
+          <li class="hover:cursor-pointer">Blog</li>
+          <li class="hover:cursor-pointer">Careers</li>
         </ul>
-        <button>Request Invite</button>
+        <button class="hidden text-white font-bold text-xs w-40 py-3.5 rounded-3xl hover:opacity-50">Request Invite</button>
       </nav>
     </header>
 
     <main class="text-center text-sm tracking-tight">
+      <div id="overlay" class="hidden fixed w-full h-full bg-[#0000003f] top-0 left-0 z-10"></div>
       <div>
         <img
-          class="absolute top-[-3.5rem] z-10 px-4"
+          class="absolute top-[-3.5rem] z-0 px-4"
           src="../images/image-mockups.png"
           alt="Images showing four cellphones using the bank app"
         />

@@ -16,3 +16,17 @@ socialIcons.forEach((icon, index) => {
     icon.src = `../images/icon-${socialMedia[index]}.svg`;
   })
 });
+
+menuIcon.addEventListener("click",displayMenu)
+
+function displayMenu() {
+    topMenu.classList.toggle("hidden")
+    overlay.classList.toggle("hidden")
+    menuIcon.src = topMenu.classList.contains("hidden")
+      ? "../images/icon-hamburger.svg"
+      : "../images/icon-close.svg";
+}
+
+window.addEventListener("resize", () => {
+    topMenu.classList.add("hidden")
+})
