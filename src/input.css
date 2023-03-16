@@ -35,6 +35,7 @@ p {
 
 main {
   background: url('../images/bg-intro-mobile.svg') no-repeat;
+  background-position-x: 100%;
 }
 
 button {
