@@ -29,4 +29,6 @@ function displayMenu() {
 
 window.addEventListener("resize", () => {
     topMenu.classList.add("hidden")
+    overlay.classList.add("hidden")
+    menuIcon.src = "../images/icon-hamburger.svg";
 })
