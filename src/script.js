@@ -31,4 +31,24 @@ window.addEventListener("resize", () => {
   topMenu.classList.add("hidden");
   overlay.classList.add("hidden");
   menuIcon.src = "../images/icon-hamburger.svg";
+  menuDecorationCheck()
 });
+
+const menuTopItems = document.querySelectorAll(".menu_top_item");
+
+const menuUnderlines = document.querySelectorAll(".menu_underline");
+
+function menuDecorationCheck() {
+  if (screen.width > 1024) {
+    menuTopItems.forEach((item, index) => {
+      item.addEventListener("mouseenter", () => {
+        menuUnderlines[index].classList.remove("invisible");
+      });
+      item.addEventListener("mouseout", () => {
+        menuUnderlines[index].classList.add("invisible");
+      });
+    });
+  }
+}
+
+menuDecorationCheck()

@@ -42,6 +42,10 @@ button {
   background-image: linear-gradient(to right, #31d35c, #2bb7da);
 }
 
+.menu_underline {
+  background-image: linear-gradient(to right, #31d35c, #2bb7da);
+}
+
 .currency {
   background-image: url("../images/image-currency.jpg");
 }
@@ -76,7 +80,7 @@ button {
   main {
     background-image: url("../images/bg-intro-desktop.svg");
     background-position-y: -11.3125rem;
-    background-position-x: 39rem;
+    background-position-x: 43vw;
   }
 
   .heading_div {
