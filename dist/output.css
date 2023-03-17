@@ -974,6 +974,18 @@ button {
     margin-left: 1rem;
   }
 
+  .lg\:ml-5 {
+    margin-left: 1.25rem;
+  }
+
+  .lg\:ml-6 {
+    margin-left: 1.5rem;
+  }
+
+  .lg\:ml-10 {
+    margin-left: 2.5rem;
+  }
+
   .lg\:inline {
     display: inline;
   }
@@ -1030,6 +1042,16 @@ button {
     padding-bottom: 26rem;
   }
 
+  .lg\:px-10 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+
+  .lg\:px-16 {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
   .lg\:pb-\[unset\] {
     padding-bottom: unset;
   }
@@ -1042,9 +1064,44 @@ button {
     padding-top: unset;
   }
 
+  .lg\:pl-5 {
+    padding-left: 1.25rem;
+  }
+
+  .lg\:pl-6 {
+    padding-left: 1.5rem;
+  }
+
+  .lg\:pl-7 {
+    padding-left: 1.75rem;
+  }
+
+  .lg\:text-left {
+    text-align: left;
+  }
+
   .lg\:text-sm {
     font-size: 0.875rem;
     line-height: 1.25rem;
+  }
+
+  .lg\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
+
+  .lg\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+
+  .lg\:text-\[3\.25rem\] {
+    font-size: 3.25rem;
+  }
+
+  .lg\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
   }
 
   .lg\:tracking-tighter {
