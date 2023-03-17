@@ -72,14 +72,46 @@ button {
   color: hsl(228, 45%, 44%);
 }
 
-@media screen and (min-width:1024px) {
+@media screen and (min-width: 1024px) {
   main {
-    background-image: url('../images/bg-intro-desktop.svg');
+    background-image: url("../images/bg-intro-desktop.svg");
     background-position-y: -11.3125rem;
     background-position-x: 39rem;
-  }  
+  }
 
   .heading_div {
     place-items: center start;
   }
+
+  .footer_grid:nth-child(1) {
+    grid-area: one;
+  }
+
+  .footer_grid:nth-child(2) {
+    grid-area: two;
+  }
+
+  .footer_grid:nth-child(3) {
+    grid-area: three;
+  }
+
+  .footer_grid:nth-child(4) {
+    grid-area: four;
+  }
+
+  .footer_grid:nth-child(5) {
+    grid-area: five;
+  }
+
+  .footer_grid:nth-child(6) {
+    grid-area: six;
+  }
+
+  footer {
+    grid-template-areas:
+      "one three four"
+      "two three five"
+      "six six six";
+  }
+
 }
