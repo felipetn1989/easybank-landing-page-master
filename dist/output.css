@@ -930,10 +930,6 @@ button {
   background-image: linear-gradient(to right, #31d35c, #2bb7da);
 }
 
-.menu_underline {
-  background-image: linear-gradient(to right, #31d35c, #2bb7da);
-}
-
 .currency {
   background-image: url("../images/image-currency.jpg");
 }
@@ -1012,6 +1008,10 @@ button {
       "one three four"
       "two three five"
       "six six six";
+  }
+
+  .menu_underline {
+    background-image: linear-gradient(to right, #31d35c, #2bb7da);
   }
 }
 
