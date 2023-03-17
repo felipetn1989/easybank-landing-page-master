@@ -30,16 +30,38 @@ h3 {
 }
 
 p {
-    color: #9698a6;
+  color: #9698a6;
 }
 
 main {
-  background: url('../images/bg-intro-mobile.svg') no-repeat;
+  background: url("../images/bg-intro-mobile.svg") no-repeat;
   background-position-x: 100%;
 }
 
 button {
-    background-image: linear-gradient(to right, #31d35c, #2bb7da);
+  background-image: linear-gradient(to right, #31d35c, #2bb7da);
+}
+
+.currency {
+  background-image: url("../images/image-currency.jpg");
+}
+
+.restaurant {
+  background-image: url("../images/image-restaurant.jpg");
+}
+
+.plane {
+  background-image: url("../images/image-plane.jpg");
+}
+
+.confetti {
+  background-image: url("../images/image-confetti.jpg");
+}
+
+.article_image {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
 
 .attribution {
@@ -48,4 +70,16 @@ button {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media screen and (min-width:1024px) {
+  main {
+    background-image: url('../images/bg-intro-desktop.svg');
+    background-position-y: -11.3125rem;
+    background-position-x: 39rem;
+  }  
+
+  .heading_div {
+    place-items: center start;
+  }
 }

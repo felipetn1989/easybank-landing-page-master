@@ -14,21 +14,21 @@ socialIcons.forEach((icon, index) => {
   });
   icon.addEventListener("mouseout", () => {
     icon.src = `../images/icon-${socialMedia[index]}.svg`;
-  })
+  });
 });
 
-menuIcon.addEventListener("click",displayMenu)
+menuIcon.addEventListener("click", displayMenu);
 
 function displayMenu() {
-    topMenu.classList.toggle("hidden")
-    overlay.classList.toggle("hidden")
-    menuIcon.src = topMenu.classList.contains("hidden")
-      ? "../images/icon-hamburger.svg"
-      : "../images/icon-close.svg";
+  topMenu.classList.toggle("hidden");
+  overlay.classList.toggle("hidden");
+  menuIcon.src = topMenu.classList.contains("hidden")
+    ? "../images/icon-hamburger.svg"
+    : "../images/icon-close.svg";
 }
 
 window.addEventListener("resize", () => {
-    topMenu.classList.add("hidden")
-    overlay.classList.add("hidden")
-    menuIcon.src = "../images/icon-hamburger.svg";
-})
+  topMenu.classList.add("hidden");
+  overlay.classList.add("hidden");
+  menuIcon.src = "../images/icon-hamburger.svg";
+});
